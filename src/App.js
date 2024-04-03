@@ -15,8 +15,9 @@ function App() {
   return (
     <div className="App">
       <Routes>
-        <Route path="/" element={<LoginPage/>}/>
-        <Route path='/home' element={<HomePage/>}/>
+        {/* <Route path="/" element={<LoginPage/>}/> */}
+        {/* <Route path='/home' element={<HomePage/>}/> */}
+        <Route path='/' element={<HomePage/>}/>
         <Route path='/addPeople' element={<AddPeoplePage/>}/>
         <Route path='/find' element={<FindAMatchPage/>}/>
         <Route path='/invite' element={<InvitePage/>}/>

@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import style from "./LoginPage.module.css"
 import Input from '../components/Input'
-import Button from '../components/Button'
+import Button from '../components/ButtonLogin'
 
 export default function LoginPage() {
   const [login, setLogin] = useState("false")

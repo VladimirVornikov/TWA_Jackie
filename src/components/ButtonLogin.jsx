@@ -1,5 +1,5 @@
 import React from 'react'
-import style from "./Button.module.css"
+import style from "./ButtonLogin.module.css"
 
 export default function Button({name}) {
   return (

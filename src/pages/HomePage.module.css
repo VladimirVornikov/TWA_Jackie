@@ -1,0 +1,108 @@
+.home_page {
+    background-color: rgb(169, 237, 180);
+    width: 320px;
+    padding-top: 31px;
+    padding-bottom: 19px;
+}
+
+.avatar_wrapper {
+    display: flex;
+    flex-direction: row;
+    margin-left: 13px;
+    margin-bottom: 26px;
+    align-items: center;
+}
+
+.avatar_wrapper input {
+    margin-left: 27px;
+    width: 230px;
+    height: 23px;
+    border-radius: 3px;
+    border: 1px solid black ;
+}
+
+.add_friends_block { 
+    width: 320px;
+    height: 138px;
+    background-color: yellow;
+    padding-top: 14px;
+    padding-left: 21px  ;
+    
+}
+
+.add_friends_block h2 {
+    margin-top: 14px;
+    margin-left: 21px;
+}
+
+.add_friends_block div {
+    width: 170px;
+    height: 66px;
+    background-color: red;
+    padding-top: 7px;
+    padding-left: 6px;
+    padding-bottom: 5px;
+    flex-shrink: 0;
+}
+
+.add_friends_block p {
+    color: white;
+    font-size: 10px;
+    font-family: 400;
+} 
+
+.info_wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 11px;
+    overflow-x: scroll;
+}
+
+.home_page h4 {
+    margin-top: 19px;
+    margin-left: 21px;
+    margin-bottom: 15px;
+}
+
+.match_container {
+    width: 277px;
+    height: 375px;
+    border: 1px solid black;
+    margin-left: 21px;
+}
+
+.foto {
+    background-color: aqua;
+    width: 225px;
+    height: 306px;
+    margin-top: 9px;
+    margin-left: 27px;
+}
+
+.users_info {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.info_block {
+    display: flex;
+    gap: 30px;
+}
+
+.statistic {
+    width: 69px;
+    height: 12px;
+    background-color: red;
+}
+
+.other_persons {
+    width: 178px;
+    height: 28px;
+    border-radius: 3px;
+    border: 1px solid black;
+    background-color: rgba(217, 217, 217, 1);
+    margin: 26px 71px 36px 76px;
+}
+button:hover {
+    cursor: pointer;
+}
